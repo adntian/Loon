@@ -5,10 +5,10 @@
 0 0 * * *  node /scripts/jd_coupon.js >> /scripts/logs/jd_coupon.log 2>&1
 
 # 京东手机年终奖
-15 0 * * * node /scripts/jd_festival.js >> /scripts/logs/jd_festival.log 2>&1
+# 15 0 * * * node /scripts/jd_festival.js >> /scripts/logs/jd_festival.log 2>&1
 
 # 工业品爱消除
-20 * * * * node /scripts/jd_gyec.js >> /scripts/logs/jd_gyec.log 2>&1
+# 20 * * * * node /scripts/jd_gyec.js >> /scripts/logs/jd_gyec.log 2>&1
 
 # 超级直播间红包雨
 30,31 20-23/1 25 1 * node /scripts/jd_live_redrain.js >> /scripts/logs/jd_live_redrain.log 2>&1
