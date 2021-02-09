@@ -4,9 +4,6 @@
 # 源头好物红包
 0 0 * * *  node /scripts/jd_coupon.js >> /scripts/logs/jd_coupon.log 2>&1
 
-# 京东手机年终奖
-# 15 0 * * * node /scripts/jd_festival.js >> /scripts/logs/jd_festival.log 2>&1
-
 # 工业品爱消除
 # 20 * * * * node /scripts/jd_gyec.js >> /scripts/logs/jd_gyec.log 2>&1
 
